@@ -1,0 +1,74 @@
+.heroes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.rectangle1 {
+    width:270px;
+    height:140px;
+    background: linear-gradient(to bottom, #e52d27,#b31217); 
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    display: block;
+    width: 120px;
+    height: 200px;
+    bottom: 10px;
+    position: relative;
+    left: 20px;
+}
+.block1 { 
+    font-family: 'Rubik One', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.rectangle2 {
+    width:270px;
+    height:140px;
+    background: linear-gradient(to bottom, #4568DC,#B06AB3); 
+    display: flex;
+    justify-content: space-between;
+}
+.block2 { 
+    font-family: 'Rubik One', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.rectangle3 {
+    width:270px;
+    height:140px;
+    background: linear-gradient(to bottom, #e52d27,#000); 
+    display: flex;
+    justify-content: space-between;
+}
+.block3 { 
+    font-family: 'Rubik One', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.rectangle4 {
+    width:270px;
+    height:140px;
+    background: linear-gradient(to bottom, #000,#61045F); 
+    display: flex;
+    justify-content: space-between;
+}
+.block4 { 
+    font-family: 'Rubik One', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
