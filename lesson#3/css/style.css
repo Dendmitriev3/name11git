@@ -1,0 +1,108 @@
+div {
+    box-sizing: border-box;
+}
+.test {
+    width: 600px;
+    height: 450px;
+    background-color: darkgreen;
+
+}
+.t1 {
+    width: 600px;
+    height: 150px;
+    background-color: darkred;
+}
+.t2 {
+    width: 600px;
+    height: 150px;
+    background-color: forestgreen;
+}
+.t3 {
+    width: 600px;
+    height: 150px;
+    background-color: mediumblue;
+}
+.block {
+    width: 600px;
+    height: 450px;
+    background-color: darkgreen;
+    margin-top: 20px;
+
+}
+.b1 {
+    width: 600px;
+    height: 150px;
+    background-color: brown;
+    display: flex; 
+}
+.b2 {
+    width: 600px;
+    height: 150px;
+    background-color: gold;
+}
+.b3 {
+    width: 600px;
+    height: 150px;
+    background-color: grey;
+    display: flex;
+} 
+.k1{
+    width: 200px;
+    height: 150px;
+    background-color: brown  ;
+}
+.k2{
+    width: 200px;
+    height: 150px;
+    background-color: green;
+}
+.k3{
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+}
+.s1{
+    width: 300px;
+    height: 150px;
+    background-color: darkgray;
+}
+.s2 {
+    width: 300px;
+    height: 150px;
+    background-color: navy;
+}
+.r {
+    width: 600px;
+    height: 200px;
+    background-color: darkgreen; 
+    margin-top: 20px;
+    display: flex; 
+    justify-content: space-around;
+    padding: 30px 20px 0px 20px;
+}
+.rr1 {
+    width: 150px;
+    height: 150px;
+    background-color: firebrick;
+    text-align: center;
+    padding-top: 75px ;
+    
+    
+}
+.rr2 {
+    width: 150px;
+    height: 150px;
+    background-color: lime;
+    text-align: center;
+    padding-top: 75px ;
+    
+}
+.rr3 {
+    width: 150px;
+    height: 150px;
+    background-color: royalblue;
+    text-align: center;
+    padding-top: 75px ;
+    
+    
+}
