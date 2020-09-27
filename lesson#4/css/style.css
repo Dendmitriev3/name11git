@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background: burlywood;
+    display: table;
+    margin: 0 auto;
+}
+.R {
+  color: crimson;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  padding: 20px 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li a:hover{
+    color: #ffffff;
+}
+.menu > li {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.menu > li > a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  padding: 15px 30px;
+}
+.s:after {
+  font-family: "FontAwesome";
+  color: inherit;
+  margin-left: 10px;
+}
+.g {
+  background: #273037;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 5;
+  width: 180px;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .5s ease-in-out;
+}
+.g a {
+    color: white;
+    text-align: left;
+    padding: 12px 15px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.g li:last-child a {
+    border-bottom: none;
+}
+.menu > li:hover .g {
+    opacity: 1;
+    transform: scaleY(1);
+}
